@@ -6,6 +6,10 @@
       - 'APMRegistry::CREATE_REPO_ROLE'
       - 'Kernel::APP_MANAGER_ROLE'
       - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - hatch.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
     - finance.aragonpm.eth:
       - 'CREATE_VERSION_ROLE'
     - vault.aragonpm.eth:
@@ -28,6 +32,10 @@
       - 'CREATE_VERSION_ROLE'
   manager:
     - aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+      - 'Kernel::APP_MANAGER_ROLE'
+      - 'ACL::CREATE_PERMISSIONS_ROLE'
+    - hatch.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
       - 'Kernel::APP_MANAGER_ROLE'
       - 'ACL::CREATE_PERMISSIONS_ROLE'
@@ -65,4 +73,10 @@
 - address: 'ANY_ENTITY'
   permissions:
     - open.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
+- address: '0x17d38262cEb5317aF645a246B0Ce6FC4cC3088f6'
+  owner: '@osarrouy'
+  organization: Aragon Black
+  permissions:
+    - hatch.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
