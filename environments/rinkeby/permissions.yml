@@ -80,3 +80,9 @@
   permissions:
     - hatch.aragonpm.eth:
       - 'APMRegistry::CREATE_REPO_ROLE'
+- address: '0xd5931f0a36FE76845a5330f6D0cd7a378401e34d'
+  owner: '@facuspagnuolo'
+  organization: Aragon One
+  permissions:
+    - hatch.aragonpm.eth:
+      - 'APMRegistry::CREATE_REPO_ROLE'
